@@ -109,7 +109,7 @@
                             try {
                                 definestuff();
                                 if(imglink === '' || id === '') return;
-                                BdApi.showToast("Sendinnnnng!\u2026",  {type: "success"})
+                                BdApi.showToast("Sendinnnnng!",  {type: "success"})
                                 let data = await fetch(imglink, {
                                     method: 'GET',
                                     mode: 'cors'
@@ -131,7 +131,7 @@
                                         body: formData
                                         });
                                         if(res) {
-                                            BdApi.showToast("Reaaaadyyyy! ✨\u2026",  {type: "info"})
+                                            BdApi.showToast("Reaaaadyyyy! ✨",  {type: "info"})
                                         } else {
                                             BdApi.showToast("errorrrr >:(((( ❌", {type: "error"})
                                         }
