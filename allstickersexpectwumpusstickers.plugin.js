@@ -109,7 +109,7 @@
                             try {
                                 definestuff();
                                 if(imglink === '' || id === '') return;
-                                BdApi.showToast("Sendinnnnng!",  {type: "success"})
+                                BdApi.showToast("Sendinnng!",  {type: "success"})
                                 let data = await fetch(imglink, {
                                     method: 'GET',
                                     mode: 'cors'
