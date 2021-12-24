@@ -1,5 +1,6 @@
 /**
  * @name allstickersexpectwumpusstickers
+ * @source https://github.com/Bolimha1234/allstickersexpectwumpusstickers
  */
 
  module.exports = (() => {
