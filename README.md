@@ -7,7 +7,7 @@ Requirements:
 - The plugin installed.
 
 To setup the server:
-<br>If you are using an VPS, then run
+<br>If you are using an VPS or whatever, then run
 ```
 bash start.sh
 ```
